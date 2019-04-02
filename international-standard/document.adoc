@@ -1,0 +1,43 @@
+= ISO Codes for timekeeping systems
+:docnumber: 99999
+:tc-document-number: 9999
+:edition: 1
+:copyright-year: 2029
+:language: en
+:title-intro-en: Date and time
+:title-main-en: Codes for timekeeping systems
+:title-intro-fr: Date et l'heure
+:title-main-fr: Codes pour les systèmes de chronométrage
+:doctype: standard
+:docstage: 00
+:docsubstage: 00
+:technical-committee-type: TC
+:technical-committee-number: 154
+:technical-committee: Processes, data elements and documents in commerce, industry and administration
+:workgroup-type: WG
+:workgroup-number: 5
+:workgroup: Date and time
+:secretariat: SAC
+:language: en
+:draft:
+:toc:
+:stem:
+:xrefstyle: short
+:imagesdir: images
+:docfile: document.adoc
+:mn-document-class: iso
+:mn-output-extensions: xml,html,doc,html_alt
+:local-cache-only:
+:data-uri-image:
+
+include::sections/00-foreword.adoc[]
+include::sections/00-intro.adoc[]
+include::sections/01-scope.adoc[]
+include::sections/02-norm-refs.adoc[]
+include::sections/03-termsdef.adoc[]
+include::sections/04-content.adoc[]
+
+include::sections/a1-annex.adoc[]
+include::sections/a2-annex.adoc[]
+
+include::sections/zz-references.adoc[]

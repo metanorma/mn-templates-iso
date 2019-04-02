@@ -1,0 +1,27 @@
+= ISO Metanorma Templates
+
+This GitHub repository contains templates for ISO documents.
+
+Note that the Apache license applies only to the template.
+Once a document has been created
+the license must reflect the ISO document license.
+
+This repository is used by the `metanorma new` command to create new documents.
+
+== Templates included
+
+These templates are provided in this template repository:
+
+`international-standard`::
+  (`doctype == 'international-standard'`)
+
+`iso-rice`::
+  The ISO Rice document
+
+These ``doctype``s aren't supported yet:
+
+* `technical-specification`
+* `technical-report`
+* `publicly-available-specification`
+* `international-workshop-agreement`
+* `guide`
