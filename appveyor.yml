@@ -21,8 +21,6 @@ test_script:
       metanorma new result\%%t --type iso --doctype %%t --template . --overwrite &
       metanorma compile %APPVEYOR_BUILD_FOLDER%\result\%%t\document.adoc
     )
-
-on_finish:
   - 7z a %APPVEYOR_BUILD_FOLDER%\result.zip %APPVEYOR_BUILD_FOLDER%\result
 
 artifacts:
