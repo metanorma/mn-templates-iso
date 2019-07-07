@@ -1,3 +1,5 @@
+# Auto-generated !!! Do not edit it manually
+# use ci-master https://github.com/metanorma/metanorma-build-scripts
 language: ruby
 os:
 - linux
@@ -8,8 +10,9 @@ before_install:
 - gem install metanorma-cli
 script:
 - |
-  for template in iso-rice international-standard
+  source doctypes.env
+  for template in $DOCTYPES
   do
-    metanorma new test/$template --type iso --doctype $template --template . --overwrite
+    metanorma new test/$template --type $TYPE --doctype $template --template . --overwrite
     metanorma compile test/$template/document.adoc
   done
