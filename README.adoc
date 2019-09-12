@@ -1,5 +1,7 @@
 = ISO Metanorma Templates
 
+image:https://travis-ci.com/metanorma/mn-templates-iso.svg?branch=master["Build Status", link="https://travis-ci.com/metanorma/mn-templates-iso"]
+
 This GitHub repository contains templates for ISO documents.
 
 Note that the Apache license applies only to the template.
