@@ -1,34 +1,133 @@
 = ISO Codes for timekeeping systems
+:comment: ### See comment 1 below
 :docnumber: 99999
+:comment: ### Document number assigned by the Technical committee. See comment 1
 :tc-document-number: 9999
+:comment: ### Document edition
 :edition: 1
+:comment: ### The year of copyright
 :copyright-year: 2029
-:language: en
+:comment: ### Introductory component of the English title of the document. 
 :title-intro-en: Date and time
+:comment: ### Main component of the English title of the document (mandatory)
 :title-main-en: Codes for timekeeping systems
+:comment: ### Introductory component of the French title of the document.
 :title-intro-fr: Date et l'heure
+:comment: ###  Main component of the French title of the document (mandatory)
 :title-main-fr: Codes pour les systèmes de chronométrage
-:doctype: standard
+:comment: ### See comment 2 below
+:doctype: international-standard
+:comment: ### See comment 3 below
 :docstage: 00
+:comment: ### See comment 4 below
 :docsubstage: 00
+:comment: ### See comment 5 below
 :technical-committee-type: TC
+:comment: ### Number of the relevant ISO subcommittee
 :technical-committee-number: 154
+:comment: ### Name of the relevant ISO technical committee (mandatory)
 :technical-committee: Processes, data elements and documents in commerce, industry and administration
+:comment: ### See comment 6 below
 :workgroup-type: WG
+:comment: ### Number of the relevant ISO workgroup
 :workgroup-number: 5
+:comment: ### Name of the relevant ISO workgroup
 :workgroup: Date and time
+:comment: ### Secretariat example values: ANSI, SAC, ACA...
 :secretariat: SAC
+:comment: ### Sets document language. Two values are permitted: en, fr.
 :language: en
+:comment: ### Draft status, enables display of reviewer notes; remove if final document
 :draft:
+:comment: ### Enables table of contents
 :toc:
+:comment: ### Enables stem math mode
 :stem:
+:comment: ### Sets crossreference style
 :xrefstyle: short
+:comment: ### Sets images folder directory
 :imagesdir: images
+:comment: ### name of this AsciiDoc file
 :docfile: document.adoc
+:comment: ### Document class type
 :mn-document-class: iso
 :mn-output-extensions: xml,html,doc,html_alt
 :local-cache-only:
 :data-uri-image:
+
+
+////
+Comment 1: DOCUMENT NUMBER (:docnumber:)
+
+Sequence of digits that gives the document number value included in the document identifier, for example: 
+
+99999 (to author ISO-99999)
+8000 (to author ISO-8000), 
+22745 (to author ISO-22745), 
+29002 (to author ISO-29002)
+////
+
+////
+Comment 2: DOCUMENT TYPE (:doctype:) (mandatory)
+
+Its possible values are defined by ISO deliverables: https://www.iso.org/deliverables-all.html 
+
+The permitted types are: 
+international-standard, 
+technical-specification, 
+technical-report, 
+publicly-available-specification, 
+international-workshop-agreement, 
+guide.
+////
+
+////
+Comment 3:  DOCUMENT STAGE (:docstage:) (Synonym of :status:)
+
+Stage code for the document status. See International harmonized stage codes: https://www.iso.org/stage-codes.html
+
+ISO authors usually create Metanorma documents at stages 00 through 40 (PWI, NWIP, WD, CD, DIS). Documents at the final stages, 50 and 60 (FDIS, PRF, IS), are created by ISO Editorial Program Managers at ISO/CS (aka ISO EPMs, ISO Editors). Authors using Metanorma are not expected to edit documents at those stages, and are not necessary in a normal submission process. These stages, however, can be used for mirroring and tracking of final stage and published standards, which many authors do.
+
+Example values:
+PWI: 00
+NMIP: 10
+WD: 20
+CD: 30
+DIS: 40
+FDIS:50
+IS: 60
+////
+
+
+////
+Comment 4: DOCUMENT SUBSTAGE (:docsubstage:)
+
+Substage code for the document status. See International harmonized stage codes at: https://www.iso.org/stage-codes.html
+
+If this is left out, a substage of “00” is assumed, with the exception of stage “60” (published), where a substage of “60” is assumed. (“60.00” is the final proof, “60.60” the published document.)
+////
+
+////
+Comment 5: TECHNICAL COMMITTEE TYPE (:technical-committee-type:)
+
+Type of the relevant technical committee. Defaults to TC if not supplied. 
+
+Values: TC, PC, JTC, JPC.
+////
+
+
+////
+Comment 6: WORKGROUP TYPE (:workgroup-type:)
+
+Type of the relevant ISO workgroup.
+
+Example values: WG, JWG, JAG, AG (advisory group), AHG, SWG, SG, MA (maintenance agency), CORG, JCG, CAG
+
+Default value: WG
+////
+
+
+
 
 include::sections/00-foreword.adoc[]
 include::sections/00-intro.adoc[]
