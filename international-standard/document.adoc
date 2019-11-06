@@ -12,7 +12,7 @@
 :title-intro-fr: Date et l'heure
 :title-main-fr: Codes pour les systèmes de chronométrage
 :title-part-fr:
-:comment: ### Document number assigned by the Technical committee (optional)
+:comment: ### This is the N-document number assigned within the ISO/TC, SC or WG. This number is only relevant within the scope of its assignment for tracking purposes (optional)
 :tc-docnumber: 99999
 :comment: ###  ISO document part number. This can be "part-subpart" if this is an ISO/IEC or IEC document. (Optional.)
 :partnumber: 20
@@ -57,7 +57,6 @@
 :published-date: 2018-10-14
 :comment: ### Date on which the unpublished standard was last circulated officially as a preprint. For standards, this is associated with the latest transition to a formally defined preparation stage, such as Working Draft or Committee Draft.
 :circulated-date: 2018-10-04
-:draft:
 :comment: ### Enables table of contents
 :toc:
 :comment: ### Enables stem math mode
@@ -94,12 +93,11 @@ The document title in Metanorma may be composed by three attributes from which t
 `:title-intro-en:` The introductory component of the English title (optional)
 `:title-main-en:` The main component of the English title (mandatory)
 `:title-part-en:` The English title of the document part (optional)
-
-This document template presupposes authoring in English; a different template will be needed for French, including French titles of document components such as annexes.
-
 `:title-intro-fr:` The introductory component of the French title (optional)
 `:title-main-fr:` The main component of the French title (mandatory)
 `:title-part-fr:` The French title of the document part (optional)
+
+Both the English and the French titles for the document are required, for both the English and the French version of the document. The main title will be that of the language the document is in.
 ////
 
 ////
