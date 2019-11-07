@@ -41,7 +41,7 @@
 :workgroup-number: 5
 :comment: ### Name of the relevant ISO workgroup
 :workgroup: Date and time
-:comment: ### National body acting as the secretariat for the document in the deafting stage.
+:comment: ### National body acting as the secretariat for the document in the drafting stage.
 :secretariat: SAC
 :comment: ### Document language. (Two values are permitted: en, fr.)
 :language: en
@@ -63,6 +63,7 @@
 :docfile: document.adoc
 :comment: ### Metanorma flavour: applies to all ISO documents
 :mn-document-class: iso
+:comment: ### Desired output formats. Metanorma-ISO supports the following output extension values: xml (MN XML), html (ISO-style HTML), html_alt (pretty HTML), doc (Word .doc)
 :mn-output-extensions: xml,html,doc,html_alt
 :local-cache-only:
 :data-uri-image:
