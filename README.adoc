@@ -1,6 +1,7 @@
 = ISO Metanorma Templates
 
-image:https://travis-ci.com/metanorma/mn-templates-iso.svg?branch=master["Build Status", link="https://travis-ci.com/metanorma/mn-templates-iso"]
+image:https://github.com/metanorma/mn-templates-iso/workflows/defaults/badge.svg["Build Status", link="https://github.com/metanorma/mn-templates-iso/actions?query=workflow%3Adefaults"]
+image:https://github.com/metanorma/mn-templates-iso/workflows/windows/badge.svg["Windows Build Status", link="https://github.com/metanorma/mn-templates-iso/actions?query=workflow%3Awindows"]
 
 This GitHub repository contains templates for ISO documents.
 
