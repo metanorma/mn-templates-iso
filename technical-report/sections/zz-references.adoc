@@ -7,7 +7,7 @@
 * [[[iso-iec_10746-3,ISO/IEC 10746-3:1996]]], Information technology -- Open Distributed Processing -- Reference Model: Architecture
 
 
-// Illustration-purpose references (these are not included in the original standard)
+// Illustration-purpose references (these are not included in ISO/IEC TR 29166:2011 original standard)
 
 * [[[ISO639-2,ISO 639-2]]], _Codes for the representation of names of languages -- Part 2: Alpha-3 code_
 
