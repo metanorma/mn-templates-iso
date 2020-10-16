@@ -1,0 +1,54 @@
+
+:sectnums!:
+[[introduction]]
+== Introduction
+
+// Insert introduction here.
+
+OASIS Open Document Format ODF 1.0 (<<iso-iec_26300>>) and Office Open XML (ISO/IEC 29500) are both open document formats for saving and exchanging word processing documents, spreadsheets and presentations. Both formats are XML based but differ in design and scope.
+
+OASIS ODF 1.0 was published by OASIS as an OASIS standard in May 2005. The second edition of ODF 1.0 has been published by OASIS as a committee specification in July 2006 and accepted as an International Standard by ISO (<<iso-iec_26300>>) in December 2006. Office Open XML was first approved in December 2006 by the ECMA International General Assembly as ECMA-376. An updated version was published in November 2008 by ISO (ISO/IEC 29500). The corresponding version, ECMA-376 2nd edition, was published in December 2008.
+
+This Technical Report addresses both developers seeking to implement either the OpenDocument or the Office Open XML International Standard and template designers and other power users whose competences cut across the spectrum of XML and XML-related technologies which directly or remotely deal with one or both of the two International Standards. This Technical Report will be of great assistance to those seeking to exchange documents between formats, to extract data from or import data into documents, or to write applications supporting the two formats.
+
+This Technical Report aims at analysing the two International Standards and their underlying concepts in terms of interoperability issues for a selected set of features. It analyses the way these features are implemented in both International Standards and estimates the degree of translatability between them using a table-based comparison. This Technical Report serves as a preliminary technical translation guideline for evaluating translatability between certain parts of the two International Standards. It does not compare different implementations which can cause additional kinds of interoperability problems.
+Both Office Open XML and OpenDocument formats are basically descriptions of schemas used for word processing documents, spreadsheets and presentations created by office application suites. Both are open formats. A key design objective is to guarantee long-term access to data without the legal or technical barriers associated with proprietary binary formats. XML schema definitions are normative parts of both International Standards.
+
+Manipulating documents is fundamentally facilitated by separating a document’s layout from its content. Editing the layout and data components independently of one another affords considerable flexibility in creating and editing office documents. Defining the structure and content of documents has been the focus of both International Standards. A document’s layout is ultimately governed by the implementation of the office suite, in particular by the rendering engine. Thus, as depicted in Figure 1, using exactly the same standard to describe a document does not guarantee that different office suites will produce identical layouts. Consequently, this Technical Report focuses more on the definition of guidelines for the translation of document structure, content and presentation instructions than on the preservation of document layout.
+
+In this Technical Report the two International Standards will be examined in their universality and not by comparing specific implementations such as Microsoft Office or OpenOffice.org/LibreOffice. For this reason, various examples have been developed using a simple XML editor which supports both standards. The names of specific implementations may be used in the use cases to illustrate the real world scenario behind the use case. The figures in this Technical Report are created for illustration purposes, using available tools such as OpenOffice 3.* and Microsoft Office 2010. It should not be assumed that the current versions of these implementations support all the features needed to implement the use case, especially the document standards and the translation between them.
+
+Several use cases do not mention existing tools, but rather use abstract names such as document format A (DF-A) and document format B (DF-B).
+
+This Technical Report begins with a presentation of typical use cases characterizing scenarios where specific features supported by both document formats are used. It then analyses the most important features of one document format and shows how those features can best be represented in the other format. It then reviews the concepts and various features of the two document formats in order to provide a good understanding of the formats' common features and especially their differences. Most features can be translated to the other format with varying degrees of fidelity. For the most important features, this Technical Report provides detailed information on the implementation of the feature and the extents to which that feature can be translated, including typical translation rules. Finally, an overview summing up the most important results and deriving guidelines for the translation between both formats concludes this Technical Report.
+
+The following abbreviations are used throughout this Technical Report:
+
+* ODF, which stands for OpenDocument Format (<<iso-iec_26300>>);
+* OOXML, which stands for Office Open XML (ISO/IEC 29500:2008).
+
+It is hoped that this Technical Report will be useful in understanding how the ODF and OOXML International Standards compare and how their functionality can be mapped between the two formats. It is a necessary step to the goal of helping achieve interoperability and harmonization between the two formats.
+
+=== History of ODF and OOXML
+
+ODF was originally developed by Sun Microsystems between 2000 and 2002 with the following objective:
+“To create as a community, the leading international office suite that will run on all major platforms and provide access to all functionality and data through open-component based APIs and an XML-based file format.”1
+
+In 2002, the standardization process was initiated at OASIS, and in 2005 the standard was published as OASIS Open Document Format for Office Applications, abbreviated as OpenDocument or ODF. In 2006, Open Document Format for Office Applications v.1.0 became an ISO International Standard (<<iso-iec_26300>>). Open Document Format for Office Applications v.1.1 has been published by OASIS as an OASIS standard in February 2007. At the time of writing (June 2011) Version 1.2 has been released as a Committee Specification 1.0. While version 1.0 of the ODF standard only consists of one part, the current version is structured into three parts: core, formulas, and packages.
+
+Microsoft followed suit in 2006 via the Open Specification Promise (OSP2) by opening the format of its 2007 version of the Microsoft office suite (version 12) for which it also uses XML as an exchange and storage format. OOXML is a file format originally developed by Microsoft as a successor to its earlier Office 2003 file formats. It is used for representing spreadsheet, presentation and word processing documents. In 2006 Office Open XML became an ECMA standard (ECMA-376, 1st edition). In 2008, a revised version of ECMA-376 became an ISO International Standard (ISO/IEC 29500:2008), which has its equivalent in the ECMA-376, 2nd edition.
+
+ISO/IEC 29500 is structured into four parts, each of which contains normative as well as informative material: Fundamentals and Markup Language Reference, Open Packaging Conventions, Markup Compatibility and Extensibility, and Transitional Migration Features.
+
+At the time of writing (June 2011) the following corrigenda and amendments have been published:
+
+* ISO/IEC 29500-1:2008/Cor.1:2010, ISO/IEC 29500-2:2008/Cor.1:2010, ISO/IEC 29500-3:2008/Cor.1:2010 and ISO/IEC 29500-4:2008/Cor.1:2010, containing minor technical corrections and editorial modifications;
+* ISO/IEC 29500-1:2008/Amd.1:2010 and ISO/IEC 29500-4:2008/Amd.1:2010, containing namespace changes and modifications concerning the usage of percentage (%) values;
+* ISO/IEC 29500:2011 (ECMA 376 3rd edition) as a consolidated version of OOXML containing the above-mentioned corrigenda and amendments;
+* ISO/IEC 26300:2006/Cor.1:2010, containing editorial modifications;
+* ISO/IEC 26300:2006/Cor.2:2011, fixing editorial errors.
+
+In addition, the following Amendments are under preparation:
+
+* Amendment 1 to ISO/IEC 29500-1:2011 and Amendment 1 to ISO/IEC 29500-4:2011 about ISO 8601 dates;
+* Amendment 1 to ISO/IEC 26300:2006 introducing ODF 1.1.

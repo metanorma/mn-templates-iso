@@ -1,0 +1,14 @@
+
+[bibliography]
+== Bibliography
+
+* [[[iso-iec_10746-1,ISO/IEC 10746-1:1998]]], Information technology -- Open Distributed Processing -- Reference model: Overview
+
+* [[[iso-iec_10746-3,ISO/IEC 10746-3:1996]]], Information technology -- Open Distributed Processing -- Reference Model: Architecture
+
+
+// Illustration-purpose references (these are not included in the original standard)
+
+* [[[ISO639-2,ISO 639-2]]], _Codes for the representation of names of languages -- Part 2: Alpha-3 code_
+
+* [[[ISO8601-1,ISO 8601-1]]], _Date and time -- Representations for information interchange -- Part 1: Basic rules_
