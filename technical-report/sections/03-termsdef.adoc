@@ -1,0 +1,128 @@
+
+[[terms]]
+== Terms and definitions
+
+
+=== translation type
+
+methods used when translating between ODF and OOXML documents
+
+[NOTE]
+====
+This Technical Report distinguishes four translation types:
+* one way ODF to OOXML translation;
+* one way OOXML to ODF translation;
+* round trip ODF to OOXML to ODF translation;
+* round trip OOXML to ODF to OOXML translation.
+====
+
+=== translation fidelity
+
+quality of a translation process between the ODF and OOXML document formats
+NOTE: Translation fidelity depends on document properties.
+
+NOTE: Translation fidelity cannot be measured in an absolute manner; it depends on the intentions of the document's authors.
+
+
+=== document type
+
+characterization of the specific purpose and content of a document
+
+NOTE: This Technical Report distinguishes three major document types: word processing, spreadsheet and presentation documents.
+
+NOTE: Some document features only exist in one document type ; other features have been defined for more than one document type.
+
+NOTE: The association between document type and document feature can be different for ODF and OOXML.
+
+
+=== document property
+
+description of different yet independent dimensions within the specification of a document
+
+[NOTE]
+====
+As defined in 4.2 this Technical Report distinguishes the following document properties:
+* presentation instructions;
+* content;
+* dynamic content;
+* meta data;
+* annotations and security;
+* document parts.
+====
+
+NOTE: Document properties are implemented using document features.
+
+
+=== document feature
+
+characterization of a document used to implement specific aspects of a document property
+
+NOTE: Document features are visible to a user.
+
+NOTE: Document features are illustrated by associated use cases in this Technical Report.
+
+NOTE: The terms feature , functionality and sub functionality are used to structure the comparison of both document formats in Clause 6.
+
+NOTE: Document features implement document properties.
+
+
+=== document format
+
+synonym for document standard within this Technical Report
+
+
+=== functionality
+
+refinement of document features
+
+NOTE: For example, the format of a paragraph is a feature and the height of a line is a functionality.
+
+NOTE: In many cases functionality is implemented using XML types or elements.
+
+
+=== sub functionality
+
+itemization of functionality
+
+NOTE: For example, the height of a line can be defined as fixed, font-independent, automatic, etc.
+
+NOTE: In many cases sub functionality is implemented using XML attributes.
+
+
+=== translatability level
+
+rough scale for translation fidelity
+
+NOTE: Translatability levels are used in Clause 6.
+
+NOTE: Translatability levels have a three tier range (low, medium, high).
+
+
+=== translation complexity
+
+description of the complexity of the translation process for document features, considering their structures and associated translation rules
+
+NOTE: Translation complexity is a three value metric system (easy, moderate, difficult).
+
+NOTE: Translation complexity is used in Clause 8 to classify the translation of document features or functionalities from one format to the other.
+
+
+// Illustration-purpose terms (these are not included in the original standard)
+
+[[term-script]]
+=== script
+
+particular graphic representation or class of representations of a set of characters used to write one or more languages
+
+[.source]
+<<ISO5127,clause="3.1.6.02">>
+
+
+[[term-code]]
+=== code
+
+data representation in different forms according to a pre-established set of rules
+
+[.source]
+<<ISO639-2>>
+
