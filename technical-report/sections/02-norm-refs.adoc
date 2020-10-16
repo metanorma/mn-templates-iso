@@ -12,7 +12,7 @@
 
 * [[[iso-iec_29500-4,ISO/IEC 29500-4:2008]]], Information technology -- Document description and processing languages -- Office Open XML File Formats -- Part 4: Transitional Migration Features
 
-// Illustration-purpose references (these are not included in the original standard)
+// Illustration-purpose references (these are not included in ISO/IEC TR 29166:2011 original standard)
 
 * [[[ISO5127,ISO 5127]]], _Information and documentation — Foundation and vocabulary_
 

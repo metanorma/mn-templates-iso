@@ -107,7 +107,7 @@ NOTE: Translation complexity is a three value metric system (easy, moderate, dif
 NOTE: Translation complexity is used in Clause 8 to classify the translation of document features or functionalities from one format to the other.
 
 
-// Illustration-purpose terms (these are not included in the original standard)
+// Illustration-purpose terms (these are not included in ISO/IEC TR 29166:2011 original standard)
 
 [[term-script]]
 === script
