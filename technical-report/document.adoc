@@ -1,6 +1,6 @@
 = Guidelines for translation between ISO/IEC 26300 and ISO/IEC 29500 document formats
-:comment: ### This template is based on ISO/IEC TR 29166:2011(en) preview provided in https://www.iso.org/obp/ui/#iso:std:iso-iec:tr:29166:en
-:comment: ### Empty-value attributes are shown here for description purposes and they do not apply to this particular standard. Feel free to remove any attribute that don't apply to your particular case.
+:comment: ### This template is based on ISO/IEC TR 29166:2011 standard preview provided in https://www.iso.org/obp/ui/#iso:std:iso-iec:tr:29166:en
+:comment: ### Empty-value attributes are shown here for description purposes and do not apply to this particular standard. Feel free to remove any attribute that don't apply to your particular case.
 :comment: ### Document Number. See comment 1 below
 :docnumber: 29166
 :comment: ### Document edition
