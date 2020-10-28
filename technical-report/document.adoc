@@ -114,12 +114,16 @@ ISO authors usually create Metanorma documents at stages 00 through 40 (PWI, NWI
 
 Example values:
 PWI: 00
-NMIP: 10
+NP: 10
 WD: 20
 CD: 30
 DIS: 40
 FDIS:50
 IS: 60
+
+For technical report (TR), possible stages are:
+Committee stage (CD): 30
+Publication stage (IS): 60
 ////
 
 
@@ -129,6 +133,13 @@ Comment 5: DOCUMENT SUBSTAGE (:docsubstage:)
 Substage code for the document status. See International harmonized stage codes at: https://www.iso.org/stage-codes.html
 
 If this is left out, a substage of “00” is assumed, with the exception of stage “60” (published), where a substage of “60” is assumed. (“60.00” is the final proof, “60.60” the published document.)
+
+For technical report (TR), possible substages are:
+Draft registered (CD) / Technical Report under publication (IS): 00
+Draft voting initiated (CD): 20
+Close of voting period (CD) / Technical Report published (IS): 60
+Project deleted (CD): 98
+Approved for publication (CD): 99
 ////
 
 ////

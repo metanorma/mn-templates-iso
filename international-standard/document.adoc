@@ -125,6 +125,15 @@ CD: 30
 DIS: 40
 FDIS:50
 IS: 60
+
+For International Standard, possible stages are:
+Preliminary stage (PWI): 00
+Proposal stage (NP): 10
+Preparatory stage (WD): 20
+Committee stage (CD): 30
+Enquiry stage (DIS): 40
+Approval stage (FDIS): 50
+Publication statge (IS): 60
 ////
 
 
@@ -134,6 +143,15 @@ Comment 5: DOCUMENT SUBSTAGE (:docsubstage:)
 Substage code for the document status. See International harmonized stage codes at: https://www.iso.org/stage-codes.html
 
 If this is left out, a substage of “00” is assumed, with the exception of stage “60” (published), where a substage of “60” is assumed. (“60.00” is the final proof, “60.60” the published document.)
+
+For International Standard, possible substages are:
+Registration (PWI,PN,WD,CD,FDIS,DIS) / International Standard under publication (IS): 00
+Project under review/ballot/study (PWI,NP,WD,CD,FDIS,DIS): 20
+Close review/voting/comment period (PWI,NP,WD,CD,FDIS,DIS) / International Standard Published (IS): 60
+Repeat an earlier phase (PWI,CD,FDIS,DIS): 92
+Repeat current phase (FDIS): 93
+Abandon project (PWI,NP,WD,CD,FDIS,DIS): 98
+Proceed (PWI,NP,WD,CD,FDIS,DIS): 99
 ////
 
 ////
