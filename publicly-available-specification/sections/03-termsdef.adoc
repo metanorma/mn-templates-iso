@@ -46,3 +46,27 @@ total sediment, determined by <<iso_10307-1>>, after dilution of a sample of res
 [.source]
 <<iso_10307-2,clause "3.2">>
 
+
+// Illustration-purpose terms (these are not included in ISO/PAS 23263:2019 original standard)
+
+=== microphone
+
+transducer that converts sound into an electrical signal
+
+[.source]
+<<iso22259,clause "3.14">>
+
+
+=== headphone
+
+transducer that converts an electrical signal into sound, designed to be worn close to the ear
+
+[.source]
+<<iso22259,clause "3.17">>
+
+=== headset
+
+term:[headphones,headphone] combined with a term:[microphone]
+
+[.source]
+<<iso20109,clause "3.5">>
