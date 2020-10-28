@@ -9,6 +9,6 @@
 
 // Illustration-purpose references (these are not included in ISO/IEC TR 29166:2011 original standard)
 
-* [[[ISO639-2,ISO 639-2]]], _Codes for the representation of names of languages -- Part 2: Alpha-3 code_
+* [[[iso27000,ISO/IEC 27000:2009]]], _Information technology -- Security techniques -- Information security management systems -- Overview and vocabulary_
 
-* [[[ISO8601-1,ISO 8601-1]]], _Date and time -- Representations for information interchange -- Part 1: Basic rules_
+* [[[iso15489_1,ISO 15489-1:2016]]], _Information and documentation -- Records management -- Part 1: Concepts and principles_

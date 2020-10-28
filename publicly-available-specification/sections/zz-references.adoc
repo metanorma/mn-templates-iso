@@ -13,3 +13,10 @@
 * [[[iso_10307-1,ISO 10307-1:2009]]], _Petroleum products -- Total sediment in residual fuel oils -- Part 1: Determination by hot filtration_
 
 * [[[iso_10307-2,ISO 10307-2:2009]]], _Petroleum products -- Total sediment in residual fuel oils -- Part 2: Determination using standard procedures for ageing_
+
+
+// Illustration-purpose references (these are not included in ISO/PAS 23263:2019 original standard)
+
+* [[[iso20109,ISO 20109:2016]]], _Simultaneous interpreting -- Equipment -- Requirements_
+
+* [[[iso22259,ISO 22259:2019]]], _Conference systems -- Equipment -- Requirements_
