@@ -1,4 +1,4 @@
-= ISO International Standard template in Metanorma
+= ISO Publicly Available Specification template in Metanorma
 
 == Installing build tools
 
