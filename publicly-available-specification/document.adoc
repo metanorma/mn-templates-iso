@@ -1,4 +1,5 @@
 = Fuels (class F)
+:comment: ### Publicly Available Specification (PAS) template
 :comment: ### This template is based on ISO/PAS 23263:2019 standard preview provided in https://www.iso.org/obp/ui/#iso:std:iso:pas:23263:ed-1:v1:en
 :comment: ### Empty-value attributes are shown here for description purposes and do not apply to this particular standard. Feel free to remove any attribute that don't apply to your particular case.
 :comment: ### Document Number. See comment 1 below
