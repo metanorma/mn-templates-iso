@@ -1,5 +1,5 @@
 = ISO Codes for timekeeping systems
-:comment: ### International Standart template
+:comment: ### International Standard template
 :comment: ### Document Number. See comment 1 below
 :docnumber: 99999
 :comment: ### Document edition
@@ -9,7 +9,7 @@
 :comment: ### See comment 2 below
 :title-intro-en: Date and time
 :title-main-en: Codes for timekeeping systems
-:title-part-en: 
+:title-part-en:
 :title-intro-fr: Date et l'heure
 :title-main-fr: Codes pour les systèmes de chronométrage
 :title-part-fr:
@@ -31,11 +31,11 @@
 :technical-committee: Processes, data elements and documents in commerce, industry and administration
 :comment: ### Type of the relevant ISO workgroup. See comment 7 below
 :comment: ### Name of the relevant ISO subcommittee. (Omit if not applicable.)
-:subcommittee: 
+:subcommittee:
 :comment: ### Type of the relevant ISO subcommittee. Defaults to SC if not supplied. Values: SC, JSC. (Omit if not applicable.)
-:subcommittee-type: 
+:subcommittee-type:
 :comment: ### Number of the relevant ISO subcommittee. (Omit if not applicable.)
-:subcommittee-number: 
+:subcommittee-number:
 :comment: ### Type of the relevant ISO workgroup. Defaults to WG if not supplied. Example values: JWG, JAG, AG (advisory group), AHG, SWG, SG, MA (maintenance agency), CORG, JCG, CAG
 :workgroup-type: WG
 :comment: ### Number of the relevant ISO workgroup
@@ -73,11 +73,11 @@
 ////
 Comment 1: DOCUMENT NUMBER (:docnumber:)
 
-Sequence of digits that gives the document number value included in the document identifier, for example: 
+Sequence of digits that gives the document number value included in the document identifier, for example:
 
 99999 (to author ISO-99999)
-8000 (to author ISO-8000), 
-22745 (to author ISO-22745), 
+8000 (to author ISO-8000),
+22745 (to author ISO-22745),
 29002 (to author ISO-29002)
 ////
 
@@ -99,14 +99,14 @@ Both the English and the French titles for the document are required, for both t
 ////
 Comment 3: DOCUMENT TYPE (:doctype:) (mandatory)
 
-Its possible values are defined by ISO deliverables: https://www.iso.org/deliverables-all.html 
+Its possible values are defined by ISO deliverables: https://www.iso.org/deliverables-all.html
 
-The permitted types are: 
-international-standard, 
-technical-specification, 
-technical-report, 
-publicly-available-specification, 
-international-workshop-agreement, 
+The permitted types are:
+international-standard,
+technical-specification,
+technical-report,
+publicly-available-specification,
+international-workshop-agreement,
 guide.
 ////
 
@@ -157,7 +157,7 @@ Proceed (PWI,NP,WD,CD,FDIS,DIS): 99
 ////
 Comment 6: TECHNICAL COMMITTEE TYPE (:technical-committee-type:)
 
-Type of the relevant technical committee. Defaults to TC if not supplied. 
+Type of the relevant technical committee. Defaults to TC if not supplied.
 
 Values: TC, PC, JTC, JPC.
 ////
