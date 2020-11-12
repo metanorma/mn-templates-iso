@@ -2,11 +2,11 @@
 [bibliography]
 == Bibliography
 
-* [[[isotr17755,ISO/TR 17755:2014]]] _ISO/TR 17755, Fire safety -- Overview of national fire statistics practices_
+* [[[isotr17755,ISO/TR 17755:2014]]], _ISO/TR 17755, Fire safety -- Overview of national fire statistics practices_
 
-* [[[iso13943,ISO 13943:2017]]]	_ISO 13943:2017, Fire Safety -- Vocabulary_
+* [[[iso13943,ISO 13943:2017]]], _ISO 13943:2017, Fire Safety -- Vocabulary_
 
-* [[[isots19677,ISO/TS 19677]]]	_ISO/TS 19677, Guidelines for assessing the adverse impact of wildland fires on the environment and to people through environmental exposure_
+* [[[isots19677,ISO/TS 19677]]], _ISO/TS 19677, Guidelines for assessing the adverse impact of wildland fires on the environment and to people through environmental exposure_
 
 
 // Illustration-purpose references (these are not included in ISO/TS 17755-2:2020(en) original standard)
