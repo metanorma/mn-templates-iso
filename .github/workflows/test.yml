@@ -4,10 +4,10 @@ name: test
 
 on:
   push:
-    branches: [ master, main  ]
+    branches: [ master, main ]
   pull_request:
   repository_dispatch:
-    types: [ metanorma/metanorma-cli ]
+    types: [ metanorma/metanorma-* ]
 
 jobs:
   test:
@@ -17,16 +17,16 @@ jobs:
       fail-fast: false
       matrix:
         os: [ macos-latest, ubuntu-latest, windows-latest ]
-        ruby: [ '2.6', '2.5', '2.4' ]
+        ruby: [ '2.7', '2.6', '2.5', '2.4' ]
         experimental: [ false ]
         include:
-          - ruby: '2.7'
+          - ruby: '3.0'
             os: macos-latest
             experimental: true
-          - ruby: '2.7'
+          - ruby: '3.0'
             os: ubuntu-latest
             experimental: true
-          - ruby: '2.7'
+          - ruby: '3.0'
             os: windows-latest
             experimental: true
 
