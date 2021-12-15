@@ -1,0 +1,15 @@
+---
+metanorma:
+  source:
+    files:
+      - guide/document.adoc
+      - international-standard/document.adoc
+      - international-workshop-agreement/document.adoc
+      - iso-rice/document.adoc
+      - publicly-available-specification/document.adoc
+      - technical-report/document.adoc
+      - technical-specification/document.adoc
+
+  collection:
+    organization: "ISO: International Organization for Standardization"
+    name: "ISO deliverable templates in Metanorma AsciiDoc"
