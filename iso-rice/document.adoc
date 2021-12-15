@@ -23,7 +23,6 @@
 :subcommittee: Cereals and pulses
 :workgroup-number: 3
 :workgroup: Rice Group
-:docfile: document.adoc
 :mn-document-class: iso
 :mn-output-extensions: xml,html,doc,html_alt
 :local-cache-only:
