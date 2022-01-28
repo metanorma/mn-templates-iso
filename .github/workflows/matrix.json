@@ -1,0 +1,13 @@
+{
+	"type": [ "iso" ],
+	"doctype": [
+		"iso-rice",
+		"international-standard",
+		"guide",
+		"international-workshop-agreement",
+		"publicly-available-specification",
+		"technical-report",
+		"technical-specification"
+	],
+	"experimental": [ false ]
+}
