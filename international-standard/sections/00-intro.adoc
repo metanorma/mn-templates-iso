@@ -4,3 +4,14 @@
 == Introduction
 
 Insert introduction here.
+
+// Identification of patent holders: the following text shall be included if patent rights have been identified.
+
+The International Organization for Standardization (ISO) draws attention to the fact that it is claimed that compliance with this document may involve the use of a patent.
+
+ISO takes no position concerning the evidence, validity and scope of this patent right.
+
+The holder of this patent right has assured ISO that he/she is willing to negotiate licences under reasonable and non-discriminatory terms and conditions with applicants throughout the world. In this respect, the statement of the holder of this patent right is registered with ISO. Information may be obtained from the patent database available at www.iso.org/patents.
+
+Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights other than those in the patent database. ISO shall not be held responsible for identifying any or all such patent rights.
+
